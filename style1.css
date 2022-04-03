@@ -1,15 +1,16 @@
 
 img{
-    height: 120px;
+    height: 105px;
     width: 100px;
+    text-align: center;
 }
 
 .hover-img{
   color: #fff;
   display: inline-block;
   margin: 8px;
-  max-width: 120px;
-  min-width: 100px;
+  max-width: 130px;
+  min-width: 110px;
   overflow: hidden;
   position: relative;
   text-align: center;
@@ -59,11 +60,13 @@ img{
     opacity: 0;
     z-index: 2;
     transition-delay: 0.1s;
-    font-size: 24px;
+    font-size: 20px;
     font-family: sans-serif;
     font-weight: 400;
     letter-spacing: 1px;
     text-transform: uppercase;
+    color: black;
+
   }
   
   .hover-img:hover:before,
@@ -81,22 +84,22 @@ img{
   }
 
   .right-align{
-      /*background-image: url(../images/shelf.jpg);*/
+      background-image: url(../images/shelf_2_75.jpg);
       float: right;
       background-repeat: no-repeat;
-      background-position: 100% 0;
+      background-position: right 10% bottom 210%;
       background-attachment: fixed;
 
 
   }
 
   .left-align{
-      /*background-image: url(../images/shelf.jpg);*/
+      background-image: url(../images/shelf_2_75.jpg);
       max-height: 100%;
       max-width: 100%;
       float:left;
       background-repeat: no-repeat;
-      background-position: 100% 0;
+      background-position: right 35% bottom 58%;
 
 
   }
@@ -111,7 +114,4 @@ img{
       text-align: center;
   }
 
-  figcaption {
-    font-size:9px;
-    color: #000000;
-}
+ 
